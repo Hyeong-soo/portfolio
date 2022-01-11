@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="ko">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="intro_bg">
+            <div class="bg_img">
+                <div class="header">
+                    <div class="searchArea">
+                        <form>
+                            <input type="search" placeholder="당신의 상상력으로 채워보세요!">
+                            <span>개발 일지</span>
+                        </form>
+                    </div>
+                    <ul class="nav">
+                        <li><a href="#">ACADEMIC</a></li>
+                        <li><a href="#">MUSIC</a></li>
+                        <li><a href="#">EXTRACURRICULAR ACTIVITIES</a></li>
+                        <li><a href="#">CONTACT</a></li>
+                    </ul>
+                </div>
+                <div class="intro_text">
+                    <h1>형수님의 PORTFOLIO</h1>
+                    <h4 class="contents1">내 포트폴리오 정도는 웹개발로 조지는 인재입니다.</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </div>
+    <!-- intro end -->
+    <ul class="amount">
+        <li>
+            <div>
+                <div class="contents1">공부 중인 언어</div>
+                <div class="result">JAVA SCRIPT</div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <div class="contents1">할 줄 아는 언어</div>
+                <div class="result">C/C++, ENGLISH</div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <div class="contents1">살아온 나날</div>
+                <div class="result">
+                    <script>
+                        function survivalCalc(){
+                          var today = new Date(); //오늘 날짜 받기
+                          var both_year = 2003; //input 으로 태어난 해 받기
+                          var both_month = 1; //input 으로 태어난 월 받기
+                          var both_day = 22; //input 으로 태어난 날 받기
+                          var myBoth = new Date(); //myBoth도 날짜를 저장할 변수이다.
+                          myBoth.setFullYear(both_year, both_month, both_day);//myDate에 input으로 받은 생년월일 저장
+                          today_Mili = Date.parse(today); //today변수를 파싱한다.
+                          both_Mili = Date.parse(myBoth); //myboth 변수를 파싱한다.
+                          survival_Mili = today_Mili - both_Mili; // 두 변수의 차를 구한다.
+                          survival_Day = survival_Mili/1000/60/60/24;// 두 차를 다시 일수로 구하기 위해 1000/60/60/24를 나눠준다.
+                          document.write(survival_Day + ' DAYS');
+                        }
+                        survivalCalc();
+                      </script>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <div class="contents1">취미</div>
+                <div class="result">&#127927; SAXOPHONE</div>
+            </div>
+        </li>
+    </ul>
+    <!--amount end-->
+    <div class="main_text0">
+        <h1>WELCOME TO MY WEBSITE!</h1>
+        <div class="contents1">제가 뭐하는 사람인지 궁금하시다구요? 상단 메뉴바를 통해 저를 탐색해보세요!</div>
+    </div>
+</body>
+
+</html>
