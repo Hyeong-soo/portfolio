@@ -6,6 +6,16 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <SCRIPT LANGUAGE="JavaScript">
+        function Frameset(page) {
+            framecode = "<frameset rows='1*'>"
+                + "<frame name=main src='" + page + "'>"
+                + "</frameset>";
+
+            document.write(framecode);
+            document.close();
+        }
+    </script>
 </head>
 
 <body>
@@ -20,7 +30,7 @@
                         </form>
                     </div>
                     <ul class="nav">
-                        <li><a href="./academic.html">ACADEMIC</a></li>
+                        <li><a href="javascript:Frameset('./academic.html')">ACADEMIC</a></li>
                         <li><a href="#">MUSIC</a></li>
                         <li><a href="#">EXTRACURRICULAR ACTIVITIES</a></li>
                         <li><a href="#">CONTACT</a></li>
@@ -54,21 +64,21 @@
                 <div class="contents1">살아온 나날</div>
                 <div class="result">
                     <script>
-                        function survivalCalc(){
-                          var today = new Date(); //오늘 날짜 받기
-                          var both_year = 2003; //input 으로 태어난 해 받기
-                          var both_month = 1; //input 으로 태어난 월 받기
-                          var both_day = 22; //input 으로 태어난 날 받기
-                          var myBoth = new Date(); //myBoth도 날짜를 저장할 변수이다.
-                          myBoth.setFullYear(both_year, both_month, both_day);//myDate에 input으로 받은 생년월일 저장
-                          today_Mili = Date.parse(today); //today변수를 파싱한다.
-                          both_Mili = Date.parse(myBoth); //myboth 변수를 파싱한다.
-                          survival_Mili = today_Mili - both_Mili; // 두 변수의 차를 구한다.
-                          survival_Day = survival_Mili/1000/60/60/24;// 두 차를 다시 일수로 구하기 위해 1000/60/60/24를 나눠준다.
-                          document.write(survival_Day + ' DAYS');
+                        function survivalCalc() {
+                            var today = new Date(); //오늘 날짜 받기
+                            var both_year = 2003; //input 으로 태어난 해 받기
+                            var both_month = 1; //input 으로 태어난 월 받기
+                            var both_day = 22; //input 으로 태어난 날 받기
+                            var myBoth = new Date(); //myBoth도 날짜를 저장할 변수이다.
+                            myBoth.setFullYear(both_year, both_month, both_day);//myDate에 input으로 받은 생년월일 저장
+                            today_Mili = Date.parse(today); //today변수를 파싱한다.
+                            both_Mili = Date.parse(myBoth); //myboth 변수를 파싱한다.
+                            survival_Mili = today_Mili - both_Mili; // 두 변수의 차를 구한다.
+                            survival_Day = survival_Mili / 1000 / 60 / 60 / 24;// 두 차를 다시 일수로 구하기 위해 1000/60/60/24를 나눠준다.
+                            document.write(survival_Day + ' DAYS');
                         }
                         survivalCalc();
-                      </script>
+                    </script>
                 </div>
             </div>
         </li>
