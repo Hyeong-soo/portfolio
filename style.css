@@ -28,7 +28,7 @@ h1
 
 .intro_bg
 {
-    width: 100%;
+    width: 1792px;
     height: 720px;
 }
 
@@ -91,7 +91,6 @@ h1
     width: 80px;
     color: #fff;
     font-weight: bold;
-    cursor: pointer;
 }
 
 .intro_text > h1,
