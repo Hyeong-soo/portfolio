@@ -144,18 +144,189 @@ h1
 .main_text0
 {
     width: 100%;
-    height: 290px;
+    height: 1000px;
     background: #f1f2f3;
     margin-top: -132px;
 }
 
 .main_text0 > h1
 {
-    padding-top: 116px;
+    padding-top: 150px;
     text-align: center;
 }
 
 .main_text0 > .contents1
 {
     text-align: center;
+}
+
+.academic_intro
+{
+    width: 100%;
+    height: 480px;
+}
+
+.academic_intro_bg
+{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-image: url("./image/academic_img.png");
+}
+
+.fade
+{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+.aca_intro_text
+{
+    text-align: center;
+    position: relative;
+    width: 100%;
+    padding-top: 110px;
+}
+
+.aca_intro_text > h1,
+.aca_intro_text > h4
+{
+    color: #fff;
+    margin: 10px;
+}
+
+.aca_intro_text > h1
+{
+    font-weight: bold;
+}
+
+.fade > .header > .searchArea
+{
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.paragraph1
+{
+    border-radius: 30px;
+    width: 400px;
+    background-color: #fff;
+    height: 600px;
+    float: left;
+    position: relative;
+    margin: 80px 0px 0px 70px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.paragraph2
+{
+    border-radius: 30px;
+    width: 400px;
+    background-color: #fff;
+    height: 600px;
+    float: left;
+    position: relative;
+    margin: 80px 0px 0px 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.paragraph3
+{
+    border-radius: 30px;
+    width: 100%;
+    background-color: #fff;
+    background-size: cover;
+    height: 600px;
+    float: left;
+    position: relative;
+    margin: 80px 100px 0px 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.self_introd
+{
+    position: relative;
+    width: 320px;
+    height: 520px;
+    margin: 40px 40px 40px 40px;
+}
+
+.paragraph3 > .self_introd
+{
+    width: 100%;
+}
+
+.self_introd > h1
+{
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.bottom_bar
+{
+    width: 100%;
+    height: 100px;
+    background-color: #000;
+}
+
+.bottom_bar > h4:first-child
+{
+    padding-top: 15px;
+}
+
+.bottom_bar > h4
+{
+    color: #fff;
+    text-align: right;
+    padding-right: 30px;
+}
+
+.self_introd > li
+{
+    padding-top: 5px;
+}
+
+.my_persnality
+{
+    margin-top: 40px;
+    width: 320px;
+    background-size: cover;
+    height: 185px;
+    background-image: url("./image/my_persnality.png");
+}
+
+.word_cloud_img
+{
+    background-image: url("./image/wordcloud_20220112210642.png");
+    background-size: cover;
+    width: 80%;
+    height: 240px;
+    margin-left: 35px;
+}
+
+.instagram
+{
+    color: #fff;
+    text-align: center;
+}
+
+.bottom_bar > div
+{
+    float: right;
+    width: 280px;
+    height: 24px;
+    padding-right: 26px;
+}
+
+
+.main_contents
+{
+    width: 100%;
+    height: 800px;
+    background-size: cover;
+    display: flex;
 }
