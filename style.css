@@ -175,6 +175,12 @@ h1
 .academic_intro
 {
     width: 100%;
+    height: 480px;
+}
+
+.contact_intro
+{
+    width: 100%;
     height: 916px;
 }
 
