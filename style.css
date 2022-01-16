@@ -438,7 +438,7 @@ h1
 
 .my_pic
 {
-    background-image: url(./image/my_pic.png);
+    background-image: url("./image/my_pic.png");
     background-size: cover;
     width: 177px;
     height: 236px;
@@ -447,7 +447,7 @@ h1
 
 .zepeto_profile
 {
-    background-image: url(./image/zepeto_profile.png);
+    background-image: url("./image/zepeto_profile.png");
     background-size: cover;
     width: 320px;
     height: 100%;
