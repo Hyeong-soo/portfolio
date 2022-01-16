@@ -161,13 +161,30 @@ h1
     margin-top: -132px;
 }
 
+.main_text1
+{
+    width: 100%;
+    height: 1000px;
+    background: #f1f2f3;
+}
+
 .main_text0 > h1
 {
     padding-top: 150px;
     text-align: center;
 }
 
+.main_text1 > h1
+{
+    padding-top: 150px;
+    text-align: center;
+}
+
 .main_text0 > .contents1
+{
+    text-align: center;
+}
+.main_text1 > .contents1
 {
     text-align: center;
 }
@@ -184,12 +201,34 @@ h1
     height: 916px;
 }
 
+.extracurricular_activity_intro_bg
+{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-image: url("./image/extracurricular_activity.jpeg");
+}
+
 .academic_intro_bg
 {
     width: 100%;
     height: 100%;
     background-size: cover;
     background-image: url("./image/academic_img.png");
+}
+
+.zepeto_intro_bg
+{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-image: url("./image/zepeto_intro.png");
+}
+
+.zepeto_intro
+{
+    width: 100%;
+    height: 916px;
 }
 
 .contact_intro_bg
@@ -280,7 +319,13 @@ h1
     height: 520px;
     margin: 40px 40px 40px 40px;
 }
-
+.self_introd3
+{
+    position: relative;
+    width: 320px;
+    height: 520px;
+    margin: 40px 40px 40px 40px;
+}
 .paragraph3 > .self_introd
 {
     width: 100%;
@@ -301,6 +346,14 @@ h1
     padding-top: 120px;
     padding-bottom: 50px;
     text-align: center;
+}
+
+.self_introd3 > h1
+{
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 0px;
+    padding-top: 30px;
 }
 
 .paul
@@ -390,4 +443,23 @@ h1
     width: 177px;
     height: 236px;
     margin-left: 70px;
+}
+
+.zepeto_profile
+{
+    background-image: url(./image/zepeto_profile.PNG);
+    background-size: cover;
+    width: 320px;
+    height: 100%;
+    border-radius: 20px;
+    background-position-y: -100px;
+}
+
+.coccampus
+{
+    background-image: url("./image/coccampus.png");
+    background-size: cover;
+    width: 700px;
+    height: 440px;
+    border-radius: 20px;
 }
