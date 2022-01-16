@@ -175,7 +175,7 @@ h1
 .academic_intro
 {
     width: 100%;
-    height: 480px;
+    height: 916px;
 }
 
 .academic_intro_bg
@@ -184,6 +184,14 @@ h1
     height: 100%;
     background-size: cover;
     background-image: url("./image/academic_img.png");
+}
+
+.contact_intro_bg
+{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-image: url("./image/contact.png");
 }
 
 .fade
