@@ -604,3 +604,40 @@ h1
     background-image: url("./image/dev_study.png");
     background-position-x: -75px;
 }
+
+.daemyen_img
+{
+    background-size: cover;
+    background-image: url("./image/daemyen.jpeg");
+    background-position-x: 0px;
+}
+
+.poka_img
+{
+    background-size: cover;
+    background-image: url("./image/poka.jpeg");
+    background-position-x: -80px;
+}
+
+.coccampus_thumb_image
+{
+    background-size: cover;
+    background-image: url("./image/coccampus_thumb.png");
+    background-position-x: 0px;
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.coccampus_image
+{
+    background-size: cover;
+    background-image: url("./image/coccampus.png");
+    background-position-x: -100px;
+    width: 370px;
+    height: 300px;
+    border-radius: 20px;
+    float: right;
+    margin-top: -300px;
+    margin-left: 30px;
+}
